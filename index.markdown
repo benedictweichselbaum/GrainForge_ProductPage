@@ -7,13 +7,11 @@ excerpt: "Digitalize Film on MacOS"
 header: 
     overlay_image: /assets/images/title.png
     overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-    actions:
-        - label: "Get it on the AppStore"
-          url: "https://apps.apple.com/app/grainforge/id6738931818"
+  
 
 feature_row_negative_processing:
   - title: "Negative Processing"
-    excerpt: "Transform your negative film scans with the negative image processing feature. Adjust the film base color to suit your specific film stock, fine-tune the final look to match your preferences, and save film base colors for future use."
+    excerpt: "Transform your negative film scans with the negative image processing feature. Adjust the film base color to suit your specific film stock, fine-tune the final look to match your preferences, and save film base colors for future use. Of course, for color and black and white."
   - image_path: assets/images/negative.png
     alt: "Negative Image"
   - image_path: assets/images/positive.png
@@ -28,6 +26,16 @@ feature_row_edit:
   - image_path: assets/images/crop.png
     alt: "Cropping Image"  
     excerpt: "Crop your image"
+
+feature_row_gallery:
+  - title: "Batch processing"
+    excerpt: "Speed up your workflow with batch processing tools. Apply custom presets to entire galleries, transfer edits or crops from one image to others in seconds, and export all your finished photos at once — perfectly processed and ready to share."
+  - image_path: assets/images/gallery_mass_edit.png
+    alt: "Batch Editing"
+    excerpt: "Batch Editing"
+  - image_path: assets/images/gallery_mass_crop.png
+    alt: "Mass Cropping"  
+    excerpt: "Do Mass-Cropping"
 ---
 
 GrainForge is a simple, streamlined and affordable tool for digital film processing. It may be old negatives from your parents, or you are shooting fresh film stock, GrainForge helps you digitalize and develop your photographed or scanned film images. It is tailored for fast processing and ensuring reproducibility by creating custom presets for your film types.
@@ -39,3 +47,7 @@ GrainForge is a simple, streamlined and affordable tool for digital film process
 {% include feature_row id="feature_row_negative_processing" %}
 
 {% include feature_row id="feature_row_edit" %}
+
+{% include feature_row id="feature_row_gallery" %}
+
+[![Download App Store Link](/assets/logos/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/grainforge/id6738931818)
