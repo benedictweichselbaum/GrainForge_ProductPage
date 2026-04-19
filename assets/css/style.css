@@ -102,6 +102,12 @@ figure { margin: 0; }
 }
 .nav__logo:hover { color: #fff; }
 
+.nav__inner nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
 .nav__link {
   font-size: 0.7rem;
   font-weight: 500;
