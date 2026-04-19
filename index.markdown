@@ -5,7 +5,7 @@
 layout: splash
 excerpt: "Digitalize Film on MacOS"
 header: 
-    overlay_image: /assets/images/title.png
+    overlay_image: /assets/appStore/final/compressed/title.png
     overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   
 
