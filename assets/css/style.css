@@ -15,7 +15,7 @@
   --dark-bg:      #1c1814;
   --dark-text:    #f5efe6;
   --dark-dim:     #7a7060;
-  --font-display: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
   --font-body:    'Inter', system-ui, -apple-system, sans-serif;
   --nav-h:        64px;
   --max-w:        1120px;
@@ -181,10 +181,11 @@ figure { margin: 0; }
 }
 
 .hero__title {
-  font-size: clamp(4rem, 11vw, 9rem);
-  font-weight: 800;
-  line-height: 0.92;
-  letter-spacing: -0.03em;
+  font-family: var(--font-display);
+  font-size: clamp(4.5rem, 12vw, 10rem);
+  font-weight: 400;
+  line-height: 0.9;
+  letter-spacing: -0.01em;
   color: var(--text);
   margin-bottom: 1.5rem;
 }
@@ -273,10 +274,11 @@ figure { margin: 0; }
 }
 
 .feature__title {
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 600;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 4.5vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
   color: var(--text);
   margin-bottom: 1.1rem;
 }
@@ -345,10 +347,11 @@ figure { margin: 0; }
 }
 
 .cta__title {
-  font-size: clamp(2rem, 5vw, 3.5rem);
-  font-weight: 700;
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  font-weight: 400;
   line-height: 1.08;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.01em;
   color: var(--dark-text);
   margin-bottom: 0.75rem;
 }
@@ -466,9 +469,10 @@ figure { margin: 0; }
 }
 
 .page-content__title {
+  font-family: var(--font-display);
   font-size: clamp(2rem, 5vw, 3rem);
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-weight: 400;
+  letter-spacing: -0.01em;
   color: var(--text);
   margin-bottom: 3rem;
   padding-bottom: 1.5rem;
