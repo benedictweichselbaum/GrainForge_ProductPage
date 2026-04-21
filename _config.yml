@@ -5,5 +5,7 @@ description: "GrainForge is a software tool to digitalize film negatives and sli
 baseurl: ""
 url: "https://grainforge.de"
 
+encoding: UTF-8
+
 plugins:
   - jekyll-seo-tag
