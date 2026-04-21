@@ -274,7 +274,7 @@ figure { margin: 0; }
 .features { padding-bottom: 2px; }
 
 .feature {
-  padding: 6.5rem 0;
+  padding: 5rem 0;
   border-bottom: 2px solid var(--border);
 }
 
@@ -289,6 +289,7 @@ figure { margin: 0; }
 }
 
 .feature--flip .feature__inner {
+  grid-template-columns: 3fr 2fr;
   grid-template-areas: "media text";
 }
 
@@ -306,9 +307,9 @@ figure { margin: 0; }
 .feature__title {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-size: clamp(2rem, 3vw, 3rem);
   font-weight: 300;
-  line-height: 1.05;
+  line-height: 1.1;
   letter-spacing: -0.01em;
   color: var(--text);
   margin-bottom: 1.1rem;
@@ -321,15 +322,11 @@ figure { margin: 0; }
   color: var(--text-dim);
 }
 
-/* Screenshots */
+/* Screenshots — single column so each fills the full media column width */
 .feature__shots {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
-}
-
-.feature__shots--single {
   grid-template-columns: 1fr;
+  gap: 1.25rem;
 }
 
 .shot {
