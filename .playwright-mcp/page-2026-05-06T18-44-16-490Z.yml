@@ -1,0 +1,102 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "GrainForge" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation "Site navigation" [ref=e5]:
+        - link "Documentation" [ref=e6] [cursor=pointer]:
+          - /url: https://docs.grainforge.de
+        - link "Imprint" [ref=e7] [cursor=pointer]:
+          - /url: /imprint/
+  - main [ref=e8]:
+    - generic [ref=e12]:
+      - heading "GrainForge" [level=1] [ref=e13]
+      - paragraph [ref=e14]:
+        - text: Digitalize and develop your film —
+        - text: fast, affordable, and built for Mac.
+      - link "Download GrainForge on the Mac App Store" [ref=e15] [cursor=pointer]:
+        - /url: https://apps.apple.com/app/grainforge/id6738931818
+        - img "Download on the Mac App Store" [ref=e16]
+    - paragraph [ref=e21]: GrainForge is a simple, streamlined, and affordable tool for digital film processing. Whether you're scanning old negatives from your parents or working with fresh film stock, GrainForge helps you digitalize and develop your images — tailored for speed and reproducibility with custom presets for every film type.
+    - generic [ref=e22]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: "01"
+          - generic [ref=e28]: Negative Processing
+          - heading "From negative to finished image" [level=2] [ref=e29]:
+            - text: From negative
+            - text: to finished image
+          - paragraph [ref=e30]: Transform your negative film scans with precision. Fine-tune tone and tint to match your preferences, change lighting, adjust the colors and save configurations as reusable presets — for both color and black-and-white film.
+        - generic [ref=e32]:
+          - figure "Negative Input" [ref=e33]:
+            - img "Negative scan input" [ref=e34]
+            - generic [ref=e35]: Negative Input
+          - figure "Processed Output" [ref=e36]:
+            - img "Processed positive output" [ref=e37]
+            - generic [ref=e38]: Processed Output
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]: "02"
+          - generic [ref=e44]: Photo Editing
+          - heading "Full control over every scan" [level=2] [ref=e45]:
+            - text: Full control over
+            - text: every scan
+          - paragraph [ref=e46]: Adjust brightness, exposure, and contrast. Fine-tune color temperature and tint. Crop, mirror, or rotate to perfect your composition. Everything you need to refine your scans — nothing you don't.
+        - generic [ref=e48]:
+          - figure "Light & Color" [ref=e49]:
+            - img "Light and color editing" [ref=e50]
+            - generic [ref=e51]: Light & Color
+          - figure "Crop & Rotate" [ref=e52]:
+            - img "Crop and rotate" [ref=e53]
+            - generic [ref=e54]: Crop & Rotate
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - generic [ref=e59]: "03"
+          - generic [ref=e60]: Batch Processing
+          - heading "An entire roll in seconds" [level=2] [ref=e61]:
+            - text: An entire roll
+            - text: in seconds
+          - paragraph [ref=e62]: Apply custom presets to entire galleries, transfer edits or crops from one image to all others in seconds, and export your finished photos in one go — perfectly processed and ready to share.
+        - generic [ref=e64]:
+          - figure "Mass Edit" [ref=e65]:
+            - img "Gallery batch edit" [ref=e66]
+            - generic [ref=e67]: Mass Edit
+          - figure "Mass Crop" [ref=e68]:
+            - img "Gallery mass crop" [ref=e69]
+            - generic [ref=e70]: Mass Crop
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e75]: "04"
+          - generic [ref=e76]: Export
+          - heading "Share your entire roll, in one go" [level=2] [ref=e77]:
+            - text: Share your entire roll,
+            - text: in one go
+          - paragraph [ref=e78]: Export whole rolls of film at once. Select your preferred format, configure your output settings, and send all your finished scans where they need to go — ready to print, share, or archive.
+        - figure "Bulk Export" [ref=e81]:
+          - img "Export view"
+          - generic [ref=e82]: Bulk Export
+    - generic [ref=e84]:
+      - heading "Ready to develop your film?" [level=2] [ref=e85]
+      - paragraph [ref=e86]: Available exclusively on the Mac App Store
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - generic [ref=e90]: $17.99
+            - generic [ref=e91]: USD
+          - generic [ref=e93]:
+            - generic [ref=e94]: €19.99
+            - generic [ref=e95]: EUR
+        - paragraph [ref=e96]: One-time purchase — no subscription
+      - link "Download GrainForge on the Mac App Store" [ref=e97] [cursor=pointer]:
+        - /url: https://apps.apple.com/app/grainforge/id6738931818
+        - img "Download on the Mac App Store" [ref=e98]
+  - contentinfo [ref=e99]:
+    - generic [ref=e100]:
+      - paragraph [ref=e101]: © 2026 Benedict Weichselbaum
+      - navigation "Footer navigation" [ref=e102]:
+        - link "Privacy Policy" [ref=e103] [cursor=pointer]:
+          - /url: https://docs.grainforge.de/privacy_policy.html
+        - link "Imprint" [ref=e104] [cursor=pointer]:
+          - /url: /imprint/
+        - link "Documentation" [ref=e105] [cursor=pointer]:
+          - /url: https://docs.grainforge.de

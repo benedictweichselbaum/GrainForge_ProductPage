@@ -1,17 +1,16 @@
 ---
-layout: single
+layout: page
 title: Imprint
 permalink: /imprint/
+description: "Legal imprint for GrainForge by Benedict Weichselbaum."
 ---
 
 ### Angaben nach § 5 DDG (Information according to § 5 DDG):
-<br>
+
 Benedict Weichselbaum Softwareentwicklung (Kleinunternehmung)
 
+Benedict Weichselbaum<br>
+Hohenzollernstr. 57<br>
+90475 Nürnberg — Germany
 
-Benedict Weichselbaum <br>
-Hohenzollernstr. 57 <br>
-90475 Nürnberg - Germany
-
-
-E-Mail: work@bweichselbaum.de
+E-Mail: [work@bweichselbaum.de](mailto:work@bweichselbaum.de)

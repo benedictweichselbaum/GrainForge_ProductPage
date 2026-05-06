@@ -1,0 +1,97 @@
+- generic [active] [ref=e1]:
+  - navigation "Skip links":
+    - list:
+      - listitem:
+        - link "Skip to primary navigation" [ref=e2] [cursor=pointer]:
+          - /url: "#site-nav"
+      - listitem:
+        - link "Skip to content" [ref=e3] [cursor=pointer]:
+          - /url: "#main"
+      - listitem:
+        - link "Skip to footer" [ref=e4] [cursor=pointer]:
+          - /url: "#footer"
+  - navigation "Primary navigation" [ref=e8]:
+    - link "GrainForge" [ref=e9] [cursor=pointer]:
+      - /url: /
+    - list [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Imprint" [ref=e12] [cursor=pointer]:
+          - /url: /imprint/
+  - generic [ref=e13]:
+    - generic [ref=e15]:
+      - heading "GrainForge" [level=1] [ref=e16]
+      - paragraph [ref=e17]: Digitalize Film on MacOS
+    - main [ref=e18]:
+      - article [ref=e19]:
+        - generic [ref=e20]:
+          - paragraph [ref=e21]: GrainForge is a simple, streamlined and affordable tool for digital film processing. It may be old negatives from your parents, or you are shooting fresh film stock, GrainForge helps you digitalize and develop your photographed or scanned film images. It is tailored for fast processing and ensuring reproducibility by creating custom presets for your film types.
+          - paragraph [ref=e22]:
+            - link "Download App Store Link" [ref=e23] [cursor=pointer]:
+              - /url: https://apps.apple.com/app/grainforge/id6738931818
+              - img "Download App Store Link" [ref=e24]
+          - heading "Key Features Permalink" [level=2] [ref=e25]:
+            - text: Key Features
+            - link "Permalink" [ref=e26] [cursor=pointer]:
+              - /url: "#key-features"
+              - generic [ref=e27]: Permalink
+          - generic [ref=e29]:
+            - generic [ref=e32]:
+              - heading "Negative Processing" [level=2] [ref=e33]
+              - paragraph [ref=e35]: Transform your negative film scans with the negative image processing feature. Adjust the film base color to suit your specific film stock, fine-tune the final look to match your preferences, and save film base colors for future use. Of course, for color and black and white.
+            - img "Negative Image" [ref=e39]
+            - img "Positive Image" [ref=e43]
+          - generic [ref=e44]:
+            - generic [ref=e47]:
+              - heading "Photo Editing" [level=2] [ref=e48]
+              - paragraph [ref=e50]: Take full control of your scanned images with a range of editing tools. Make lighting adjustments with options for brightness, exposure, and contrast, fine-tune colors or change temperature and tint. Easily crop, mirror, or rotate your images to achieve the perfect composition. These tools make it simple to refine your scans.
+            - generic [ref=e52]:
+              - img "Editing Image" [ref=e54]
+              - paragraph [ref=e57]: Edit your image
+            - generic [ref=e59]:
+              - img "Cropping Image" [ref=e61]
+              - paragraph [ref=e64]: Crop your image
+          - generic [ref=e65]:
+            - generic [ref=e68]:
+              - heading "Batch processing" [level=2] [ref=e69]
+              - paragraph [ref=e71]: Speed up your workflow with batch processing tools. Apply custom presets to entire galleries, transfer edits or crops from one image to others in seconds, and export all your finished photos at once — perfectly processed and ready to share.
+            - generic [ref=e73]:
+              - img "Batch Editing" [ref=e75]
+              - paragraph [ref=e78]: Batch Editing
+            - generic [ref=e80]:
+              - img "Mass Cropping" [ref=e82]
+              - paragraph [ref=e85]: Do Mass-Cropping
+          - paragraph [ref=e86]:
+            - link "Download App Store Link" [ref=e87] [cursor=pointer]:
+              - /url: https://apps.apple.com/app/grainforge/id6738931818
+              - img "Download App Store Link" [ref=e88]
+          - paragraph [ref=e89]:
+            - emphasis [ref=e90]: Prices may vary by region.
+  - contentinfo [ref=e92]:
+    - list [ref=e94]:
+      - listitem [ref=e95]:
+        - link "Privacy Policy" [ref=e96] [cursor=pointer]:
+          - /url: https://docs.grainforge.de/privacy_policy.html
+          - text: Privacy Policy
+      - listitem [ref=e98]:
+        - link "Imprint" [ref=e99] [cursor=pointer]:
+          - /url: /imprint/
+          - text: Imprint
+      - listitem [ref=e101]:
+        - link "Documentation" [ref=e102] [cursor=pointer]:
+          - /url: https://docs.grainforge.de
+          - text: Documentation
+      - listitem [ref=e104]:
+        - link "Feed" [ref=e105] [cursor=pointer]:
+          - /url: /feed.xml
+          - text: Feed
+    - generic [ref=e107]:
+      - text: © 2026
+      - link "GrainForge" [ref=e108] [cursor=pointer]:
+        - /url: http://localhost:4000
+      - text: . Powered by
+      - link "Jekyll" [ref=e109] [cursor=pointer]:
+        - /url: https://jekyllrb.com
+      - text: "&"
+      - link "Minimal Mistakes" [ref=e110] [cursor=pointer]:
+        - /url: https://mademistakes.com/work/jekyll-themes/minimal-mistakes/
+      - text: .
