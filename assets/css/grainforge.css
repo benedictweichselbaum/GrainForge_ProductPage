@@ -16,8 +16,8 @@
   --dark-bg2:     #1c1610;
   --dark-text:    #e8dcc9;
   --dark-dim:     #7a6a52;
-  --font-display: 'Cormorant Garamond', Georgia, serif;
-  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'Lora', Georgia, serif;
   --nav-h:        68px;
   --max-w:        1120px;
   --radius:       6px;
@@ -282,14 +282,14 @@ figure { margin: 0; }
 
 .feature__inner {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr 3fr;
   grid-template-areas: "text media";
-  gap: 5rem;
-  align-items: start;
+  gap: 3rem;
+  align-items: center;
 }
 
 .feature--flip .feature__inner {
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 3fr 1fr;
   grid-template-areas: "media text";
 }
 
@@ -322,11 +322,15 @@ figure { margin: 0; }
   color: var(--text-dim);
 }
 
-/* Screenshots — single column so each fills the full media column width */
+/* Screenshots — two columns side-by-side; --single overrides to full width */
 .feature__shots {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
+}
+
+.feature__shots--single {
+  grid-template-columns: 1fr;
 }
 
 .shot {
@@ -577,7 +581,8 @@ figure { margin: 0; }
     gap: 2.5rem;
   }
 
-  .feature__shots {
+  .feature__shots,
+  .feature__shots--single {
     grid-template-columns: 1fr;
   }
 
