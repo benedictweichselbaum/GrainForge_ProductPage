@@ -10,7 +10,7 @@ description: "Legal imprint for GrainForge by Benedict Weichselbaum."
 Benedict Weichselbaum Softwareentwicklung (Kleinunternehmung)
 
 Benedict Weichselbaum<br>
-Hohenzollernstr. 57<br>
-90475 Nürnberg — Germany
+Soester Weg 16<br>
+59929 Brilon — Germany
 
 E-Mail: [work@bweichselbaum.de](mailto:work@bweichselbaum.de)
